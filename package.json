@@ -1,0 +1,20 @@
+{
+  "name": "chatejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "author": "Oleh Popovych",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "socket.io": "^4.0.1"
+  }
+}
